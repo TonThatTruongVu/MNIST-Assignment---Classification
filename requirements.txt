@@ -8,3 +8,5 @@ scikit-learn
 numpy
 opencv-python
 streamlit-drawable-canvas
+opencv-python-headless
+
