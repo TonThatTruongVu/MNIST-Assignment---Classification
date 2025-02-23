@@ -11,7 +11,8 @@ from streamlit_drawable_canvas import st_canvas
 import requests
 import json
 
-MLFLOW_SERVER_URL = "http://127.0.0.1:5000"  # Đảm bảo đúng địa chỉ localhost
+# Cập nhật lại địa chỉ MLFlow server nếu đang chạy trên localhost
+MLFLOW_SERVER_URL = "http://127.0.0.1:5000"  # Đảm bảo đúng URL của MLFlow server
 
 # Load mô hình đã huấn luyện
 DT_MODEL_PATH = "decision_tree_model.pkl"
