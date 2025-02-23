@@ -8,10 +8,10 @@ import os
 import time
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
+import requests
+import json
 
-# Khởi động MLFlow
-mlflow.set_tracking_uri("http://localhost:5000")
-mlflow.set_experiment("handwritten_digit_recognition")
+MLFLOW_SERVER_URL = "http://127.0.0.1:5000"  # Địa chỉ IP của MLFlow server
 
 # Load mô hình đã huấn luyện
 DT_MODEL_PATH = "decision_tree_model.pkl"
@@ -42,6 +42,43 @@ def preprocess_image(img):
     gray = gray.reshape(1, -1)  # Chuyển thành vector 1x784
     return gray
 
+def log_run_to_mlflow(prediction, option, model_choice, img):
+    # Tạo experiment nếu chưa có
+    experiment_name = "handwritten_digit_recognition"
+    response = requests.post(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/create", json={"name": experiment_name})
+    experiment_id = response.json()["experiment_id"]
+
+    # Tạo run mới
+    response = requests.post(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/create", json={"experiment_id": experiment_id})
+    run_id = response.json()["run"]["info"]["run_id"]
+
+    # Ghi log tham số và metric
+    log_metric_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/log-metric"
+    data = {
+        "run_id": run_id,
+        "key": "predicted_number",
+        "value": prediction
+    }
+    requests.post(log_metric_url, json=data)
+
+    log_param_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/log-params"
+    params = {
+        "input_method": option,
+        "model_used": model_choice
+    }
+    requests.post(log_param_url, json={"run_id": run_id, "params": params})
+
+    # Ghi mô hình
+    log_model_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/models/log-model"
+    model_data = {
+        "run_id": run_id,
+        "name": "digit_classification_model",
+        "artifact_path": "digit_classification_model",
+        "model": dt_model if model_choice == "Decision Tree" else svm_model
+    }
+    requests.post(log_model_url, json=model_data)
+
+# Xử lý đầu vào từ người dùng
 if option == "Vẽ số":
     canvas_result = st_canvas(
         fill_color="black",
@@ -70,12 +107,8 @@ elif option == "Tải ảnh lên":
 if prediction is not None:
     st.write(f"### Dự đoán: {prediction}")
     
-    # Ghi log vào MLflow
-    with mlflow.start_run():
-        mlflow.log_param("input_method", option)
-        mlflow.log_param("model_used", model_choice)
-        mlflow.log_metric("predicted_number", prediction)
-        mlflow.sklearn.log_model(dt_model if model_choice == "Decision Tree" else svm_model, "digit_classification_model")
+    # Ghi log vào MLflow qua REST API
+    log_run_to_mlflow(prediction, option, model_choice, img)
     
     # Nếu dự đoán sai, cho phép sửa
     correct_label = st.number_input("Nếu sai, hãy nhập lại số đúng:", min_value=0, max_value=9, step=1, value=int(prediction))
