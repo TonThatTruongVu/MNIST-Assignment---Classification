@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/0120c697fa714498a78f0a6adc789f17/artifacts
+end_time: 1740316250149
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 0120c697fa714498a78f0a6adc789f17
+run_name: adventurous-roo-521
+run_uuid: 0120c697fa714498a78f0a6adc789f17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316247191
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/eaf5701a2eda4260ada6b9858ee02c3a/artifacts
+end_time: 1740314915968
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: eaf5701a2eda4260ada6b9858ee02c3a
+run_name: youthful-doe-905
+run_uuid: eaf5701a2eda4260ada6b9858ee02c3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314910519
+status: 3
+tags: []
+user_id: HP

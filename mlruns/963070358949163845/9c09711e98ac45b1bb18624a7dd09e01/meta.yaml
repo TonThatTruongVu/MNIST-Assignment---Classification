@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/9c09711e98ac45b1bb18624a7dd09e01/artifacts
+end_time: 1740315083583
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 9c09711e98ac45b1bb18624a7dd09e01
+run_name: adorable-sponge-86
+run_uuid: 9c09711e98ac45b1bb18624a7dd09e01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315079968
+status: 3
+tags: []
+user_id: HP

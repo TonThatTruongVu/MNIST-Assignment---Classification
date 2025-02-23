@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/HocMay_Python/Assignment/mlruns/0/b1c80fd8807c479480878ea24f1ed41c/artifacts
+end_time: 1740286585190
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1c80fd8807c479480878ea24f1ed41c
+run_name: Data Processing
+run_uuid: b1c80fd8807c479480878ea24f1ed41c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740286585169
+status: 3
+tags: []
+user_id: HP

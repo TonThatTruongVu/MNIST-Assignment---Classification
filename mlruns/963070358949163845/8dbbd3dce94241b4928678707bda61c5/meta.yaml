@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/8dbbd3dce94241b4928678707bda61c5/artifacts
+end_time: 1740316304890
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 8dbbd3dce94241b4928678707bda61c5
+run_name: unequaled-loon-173
+run_uuid: 8dbbd3dce94241b4928678707bda61c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316301996
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/26df04cabdeb48fabc050d0bd045c683/artifacts
+end_time: 1740317486741
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 26df04cabdeb48fabc050d0bd045c683
+run_name: luminous-carp-40
+run_uuid: 26df04cabdeb48fabc050d0bd045c683
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317482669
+status: 3
+tags: []
+user_id: HP

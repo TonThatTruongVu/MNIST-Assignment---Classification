@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/HocMay_Python/Assignment/mlruns/0/62bda250fbf647a0826a9d458ae0b23b/artifacts
+end_time: 1740281393648
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 62bda250fbf647a0826a9d458ae0b23b
+run_name: blushing-squid-864
+run_uuid: 62bda250fbf647a0826a9d458ae0b23b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740281393633
+status: 3
+tags: []
+user_id: HP

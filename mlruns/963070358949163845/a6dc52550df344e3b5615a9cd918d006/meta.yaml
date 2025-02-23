@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/a6dc52550df344e3b5615a9cd918d006/artifacts
+end_time: 1740318187652
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: a6dc52550df344e3b5615a9cd918d006
+run_name: peaceful-bird-128
+run_uuid: a6dc52550df344e3b5615a9cd918d006
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318184462
+status: 3
+tags: []
+user_id: HP

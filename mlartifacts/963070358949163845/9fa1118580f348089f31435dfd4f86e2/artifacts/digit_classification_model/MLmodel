@@ -1,0 +1,20 @@
+artifact_path: digit_classification_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+mlflow_version: 2.20.2
+model_size_bytes: 18697624
+model_uuid: fa2eec1e339943f5aec898e7dd417820
+run_id: 9fa1118580f348089f31435dfd4f86e2
+utc_time_created: '2025-02-23 13:01:42.146508'

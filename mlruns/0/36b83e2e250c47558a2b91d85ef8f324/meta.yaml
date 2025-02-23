@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/HocMay_Python/Assignment/mlruns/0/36b83e2e250c47558a2b91d85ef8f324/artifacts
+end_time: 1740281301537
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36b83e2e250c47558a2b91d85ef8f324
+run_name: likeable-perch-312
+run_uuid: 36b83e2e250c47558a2b91d85ef8f324
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740281301522
+status: 3
+tags: []
+user_id: HP

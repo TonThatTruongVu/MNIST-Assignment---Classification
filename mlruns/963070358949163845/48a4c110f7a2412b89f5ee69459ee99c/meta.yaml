@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/48a4c110f7a2412b89f5ee69459ee99c/artifacts
+end_time: 1740315674004
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 48a4c110f7a2412b89f5ee69459ee99c
+run_name: smiling-doe-627
+run_uuid: 48a4c110f7a2412b89f5ee69459ee99c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315671048
+status: 3
+tags: []
+user_id: HP

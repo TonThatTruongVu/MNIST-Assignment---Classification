@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/HocMay_Python/Assignment/mlruns/0/f826c5c88293457eb2b1db2d698a7dc4/artifacts
+end_time: 1740282378566
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f826c5c88293457eb2b1db2d698a7dc4
+run_name: Decision Tree
+run_uuid: f826c5c88293457eb2b1db2d698a7dc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740282370100
+status: 3
+tags: []
+user_id: HP

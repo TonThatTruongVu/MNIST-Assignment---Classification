@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/6fd6ed189daa40dc8db400de8477de71/artifacts
+end_time: 1740315092130
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 6fd6ed189daa40dc8db400de8477de71
+run_name: nervous-skunk-50
+run_uuid: 6fd6ed189daa40dc8db400de8477de71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315088751
+status: 3
+tags: []
+user_id: HP

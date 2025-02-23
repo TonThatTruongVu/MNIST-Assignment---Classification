@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/cf1b87a28df04eab95a139361d35673c/artifacts
+end_time: 1740315169226
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: cf1b87a28df04eab95a139361d35673c
+run_name: languid-stork-454
+run_uuid: cf1b87a28df04eab95a139361d35673c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315166265
+status: 3
+tags: []
+user_id: HP

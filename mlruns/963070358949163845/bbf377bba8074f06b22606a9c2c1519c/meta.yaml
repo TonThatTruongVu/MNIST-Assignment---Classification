@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/bbf377bba8074f06b22606a9c2c1519c/artifacts
+end_time: 1740315113182
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: bbf377bba8074f06b22606a9c2c1519c
+run_name: upset-cod-495
+run_uuid: bbf377bba8074f06b22606a9c2c1519c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315109407
+status: 3
+tags: []
+user_id: HP

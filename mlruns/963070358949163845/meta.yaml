@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/963070358949163845
+creation_time: 1740314716463
+experiment_id: '963070358949163845'
+last_update_time: 1740314716463
+lifecycle_stage: active
+name: handwritten_digit_recognition

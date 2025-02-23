@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/9a81efcc775940c18d880b033d334a8e/artifacts
+end_time: 1740315499549
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 9a81efcc775940c18d880b033d334a8e
+run_name: learned-quail-476
+run_uuid: 9a81efcc775940c18d880b033d334a8e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315495359
+status: 3
+tags: []
+user_id: HP

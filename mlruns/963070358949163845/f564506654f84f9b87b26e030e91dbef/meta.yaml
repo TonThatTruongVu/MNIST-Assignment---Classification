@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/f564506654f84f9b87b26e030e91dbef/artifacts
+end_time: 1740316020949
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: f564506654f84f9b87b26e030e91dbef
+run_name: chill-mule-460
+run_uuid: f564506654f84f9b87b26e030e91dbef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316017416
+status: 3
+tags: []
+user_id: HP

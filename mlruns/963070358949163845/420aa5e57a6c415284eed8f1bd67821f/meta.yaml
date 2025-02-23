@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/420aa5e57a6c415284eed8f1bd67821f/artifacts
+end_time: 1740318275341
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 420aa5e57a6c415284eed8f1bd67821f
+run_name: bittersweet-bird-906
+run_uuid: 420aa5e57a6c415284eed8f1bd67821f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318272181
+status: 3
+tags: []
+user_id: HP

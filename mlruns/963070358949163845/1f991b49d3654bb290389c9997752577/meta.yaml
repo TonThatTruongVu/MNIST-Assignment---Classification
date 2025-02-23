@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/1f991b49d3654bb290389c9997752577/artifacts
+end_time: 1740318438712
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 1f991b49d3654bb290389c9997752577
+run_name: unruly-goose-397
+run_uuid: 1f991b49d3654bb290389c9997752577
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318435257
+status: 3
+tags: []
+user_id: HP

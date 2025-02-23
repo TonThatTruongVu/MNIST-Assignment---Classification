@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/ff337b7c268d425b9e7719c151b05895/artifacts
+end_time: 1740318174833
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: ff337b7c268d425b9e7719c151b05895
+run_name: exultant-skink-176
+run_uuid: ff337b7c268d425b9e7719c151b05895
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318171876
+status: 3
+tags: []
+user_id: HP

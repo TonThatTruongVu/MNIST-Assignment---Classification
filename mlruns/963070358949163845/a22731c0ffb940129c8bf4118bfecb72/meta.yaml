@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/a22731c0ffb940129c8bf4118bfecb72/artifacts
+end_time: 1740317353888
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: a22731c0ffb940129c8bf4118bfecb72
+run_name: bouncy-carp-974
+run_uuid: a22731c0ffb940129c8bf4118bfecb72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317350205
+status: 3
+tags: []
+user_id: HP

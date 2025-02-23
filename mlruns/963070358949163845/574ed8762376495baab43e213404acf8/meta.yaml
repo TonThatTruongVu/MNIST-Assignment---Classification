@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/574ed8762376495baab43e213404acf8/artifacts
+end_time: 1740316684244
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 574ed8762376495baab43e213404acf8
+run_name: resilient-rat-98
+run_uuid: 574ed8762376495baab43e213404acf8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316680432
+status: 3
+tags: []
+user_id: HP

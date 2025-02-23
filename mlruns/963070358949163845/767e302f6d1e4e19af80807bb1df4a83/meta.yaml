@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/767e302f6d1e4e19af80807bb1df4a83/artifacts
+end_time: 1740315847860
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 767e302f6d1e4e19af80807bb1df4a83
+run_name: auspicious-koi-447
+run_uuid: 767e302f6d1e4e19af80807bb1df4a83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315844086
+status: 3
+tags: []
+user_id: HP

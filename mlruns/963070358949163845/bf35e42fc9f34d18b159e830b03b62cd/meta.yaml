@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/bf35e42fc9f34d18b159e830b03b62cd/artifacts
+end_time: 1740314853182
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: bf35e42fc9f34d18b159e830b03b62cd
+run_name: unruly-shrew-348
+run_uuid: bf35e42fc9f34d18b159e830b03b62cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314847668
+status: 3
+tags: []
+user_id: HP

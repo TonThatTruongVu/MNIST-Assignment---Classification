@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/ad8a3a1ddc6a41c29231fc1f4f564514/artifacts
+end_time: 1740316003365
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: ad8a3a1ddc6a41c29231fc1f4f564514
+run_name: caring-penguin-591
+run_uuid: ad8a3a1ddc6a41c29231fc1f4f564514
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316000177
+status: 3
+tags: []
+user_id: HP

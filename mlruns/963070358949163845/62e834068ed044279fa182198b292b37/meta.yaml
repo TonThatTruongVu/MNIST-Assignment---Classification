@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/62e834068ed044279fa182198b292b37/artifacts
+end_time: 1740316661454
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 62e834068ed044279fa182198b292b37
+run_name: calm-crab-1000
+run_uuid: 62e834068ed044279fa182198b292b37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316657992
+status: 3
+tags: []
+user_id: HP

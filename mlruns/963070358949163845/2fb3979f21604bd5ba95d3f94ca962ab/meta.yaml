@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/2fb3979f21604bd5ba95d3f94ca962ab/artifacts
+end_time: 1740314727132
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 2fb3979f21604bd5ba95d3f94ca962ab
+run_name: bold-snipe-53
+run_uuid: 2fb3979f21604bd5ba95d3f94ca962ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314723218
+status: 3
+tags: []
+user_id: HP

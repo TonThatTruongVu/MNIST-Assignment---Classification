@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/402c49bf7ff343f8878a2bbcb1e3c095/artifacts
+end_time: 1740315501611
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 402c49bf7ff343f8878a2bbcb1e3c095
+run_name: amusing-dolphin-542
+run_uuid: 402c49bf7ff343f8878a2bbcb1e3c095
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315495557
+status: 3
+tags: []
+user_id: HP

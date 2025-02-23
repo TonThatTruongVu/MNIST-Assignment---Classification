@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/4d24ca03e6484fb78ac379810cbcd9fd/artifacts
+end_time: 1740316039883
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 4d24ca03e6484fb78ac379810cbcd9fd
+run_name: gifted-koi-946
+run_uuid: 4d24ca03e6484fb78ac379810cbcd9fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316036733
+status: 3
+tags: []
+user_id: HP

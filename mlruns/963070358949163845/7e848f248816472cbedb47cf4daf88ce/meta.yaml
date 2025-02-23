@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/7e848f248816472cbedb47cf4daf88ce/artifacts
+end_time: 1740314917147
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 7e848f248816472cbedb47cf4daf88ce
+run_name: sneaky-horse-647
+run_uuid: 7e848f248816472cbedb47cf4daf88ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314913126
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/e2ba103deaf940759a6dcad3a1954ac1/artifacts
+end_time: 1740318140425
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: e2ba103deaf940759a6dcad3a1954ac1
+run_name: powerful-swan-924
+run_uuid: e2ba103deaf940759a6dcad3a1954ac1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318137448
+status: 3
+tags: []
+user_id: HP

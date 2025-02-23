@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/0bfc2c9cfeef455f87df562d467cbc38/artifacts
+end_time: 1740317507085
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 0bfc2c9cfeef455f87df562d467cbc38
+run_name: dapper-dove-98
+run_uuid: 0bfc2c9cfeef455f87df562d467cbc38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317503934
+status: 3
+tags: []
+user_id: HP

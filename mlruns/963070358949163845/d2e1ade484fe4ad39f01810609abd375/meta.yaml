@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/d2e1ade484fe4ad39f01810609abd375/artifacts
+end_time: 1740318190557
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: d2e1ade484fe4ad39f01810609abd375
+run_name: polite-skunk-70
+run_uuid: d2e1ade484fe4ad39f01810609abd375
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318187200
+status: 3
+tags: []
+user_id: HP

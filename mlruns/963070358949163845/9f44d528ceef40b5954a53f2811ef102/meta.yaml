@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/9f44d528ceef40b5954a53f2811ef102/artifacts
+end_time: 1740316684409
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 9f44d528ceef40b5954a53f2811ef102
+run_name: gregarious-newt-596
+run_uuid: 9f44d528ceef40b5954a53f2811ef102
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316680517
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/HocMay_Python/Assignment/mlruns/0/85f57cbb73154b8fbe3442f03bec3a78/artifacts
+end_time: 1740281713538
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85f57cbb73154b8fbe3442f03bec3a78
+run_name: popular-seal-116
+run_uuid: 85f57cbb73154b8fbe3442f03bec3a78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740281713526
+status: 3
+tags: []
+user_id: HP

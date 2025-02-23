@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/52a9e474b78e4f8f8e6486a6a06eeee2/artifacts
+end_time: 1740317001765
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 52a9e474b78e4f8f8e6486a6a06eeee2
+run_name: big-bee-544
+run_uuid: 52a9e474b78e4f8f8e6486a6a06eeee2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316998736
+status: 3
+tags: []
+user_id: HP

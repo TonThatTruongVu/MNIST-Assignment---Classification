@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/b97774e1c8ce4d1cb07d1d069c7247a0/artifacts
+end_time: 1740315724618
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: b97774e1c8ce4d1cb07d1d069c7247a0
+run_name: secretive-sow-291
+run_uuid: b97774e1c8ce4d1cb07d1d069c7247a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315720912
+status: 3
+tags: []
+user_id: HP

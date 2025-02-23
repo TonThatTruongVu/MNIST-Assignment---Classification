@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/ea35af07f6394ad78849eab5698392c7/artifacts
+end_time: 1740316024999
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: ea35af07f6394ad78849eab5698392c7
+run_name: clumsy-sow-751
+run_uuid: ea35af07f6394ad78849eab5698392c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316021758
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/65c9572d0a894a5d9a4fea5de01dcac4/artifacts
+end_time: 1740314915949
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 65c9572d0a894a5d9a4fea5de01dcac4
+run_name: beautiful-kite-226
+run_uuid: 65c9572d0a894a5d9a4fea5de01dcac4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314910329
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/ae778866870a4ee88d7dadc92e5d3faf/artifacts
+end_time: 1740315113023
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: ae778866870a4ee88d7dadc92e5d3faf
+run_name: bemused-cat-385
+run_uuid: ae778866870a4ee88d7dadc92e5d3faf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315109312
+status: 3
+tags: []
+user_id: HP

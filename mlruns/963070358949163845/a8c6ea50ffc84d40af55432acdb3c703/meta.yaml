@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/a8c6ea50ffc84d40af55432acdb3c703/artifacts
+end_time: 1740315017383
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: a8c6ea50ffc84d40af55432acdb3c703
+run_name: wise-boar-925
+run_uuid: a8c6ea50ffc84d40af55432acdb3c703
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315013749
+status: 3
+tags: []
+user_id: HP

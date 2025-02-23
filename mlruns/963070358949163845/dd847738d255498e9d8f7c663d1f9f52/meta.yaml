@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/dd847738d255498e9d8f7c663d1f9f52/artifacts
+end_time: 1740318106045
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: dd847738d255498e9d8f7c663d1f9f52
+run_name: debonair-shad-433
+run_uuid: dd847738d255498e9d8f7c663d1f9f52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318103068
+status: 3
+tags: []
+user_id: HP

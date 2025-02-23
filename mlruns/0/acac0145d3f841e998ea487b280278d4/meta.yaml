@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/HocMay_Python/Assignment/mlruns/0/acac0145d3f841e998ea487b280278d4/artifacts
+end_time: 1740281081920
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: acac0145d3f841e998ea487b280278d4
+run_name: handsome-asp-683
+run_uuid: acac0145d3f841e998ea487b280278d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740281081903
+status: 3
+tags: []
+user_id: HP

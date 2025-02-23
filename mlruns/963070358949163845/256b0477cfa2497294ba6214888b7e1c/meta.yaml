@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/256b0477cfa2497294ba6214888b7e1c/artifacts
+end_time: 1740317344685
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 256b0477cfa2497294ba6214888b7e1c
+run_name: capable-conch-685
+run_uuid: 256b0477cfa2497294ba6214888b7e1c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317340568
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/44e0baf7b1e6469e9e968d7b407803c8/artifacts
+end_time: 1740314915996
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 44e0baf7b1e6469e9e968d7b407803c8
+run_name: merciful-vole-953
+run_uuid: 44e0baf7b1e6469e9e968d7b407803c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314910930
+status: 3
+tags: []
+user_id: HP

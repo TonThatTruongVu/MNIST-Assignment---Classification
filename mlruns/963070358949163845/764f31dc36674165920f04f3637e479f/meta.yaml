@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/764f31dc36674165920f04f3637e479f/artifacts
+end_time: 1740318103697
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 764f31dc36674165920f04f3637e479f
+run_name: enthused-lark-11
+run_uuid: 764f31dc36674165920f04f3637e479f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318098004
+status: 3
+tags: []
+user_id: HP

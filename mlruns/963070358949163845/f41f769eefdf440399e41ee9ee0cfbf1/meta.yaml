@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/f41f769eefdf440399e41ee9ee0cfbf1/artifacts
+end_time: 1740314947033
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: f41f769eefdf440399e41ee9ee0cfbf1
+run_name: caring-newt-527
+run_uuid: f41f769eefdf440399e41ee9ee0cfbf1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314944169
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/5df45cb7bfcc436cac1811e8559a40b4/artifacts
+end_time: 1740318170245
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 5df45cb7bfcc436cac1811e8559a40b4
+run_name: placid-tern-111
+run_uuid: 5df45cb7bfcc436cac1811e8559a40b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318166697
+status: 3
+tags: []
+user_id: HP

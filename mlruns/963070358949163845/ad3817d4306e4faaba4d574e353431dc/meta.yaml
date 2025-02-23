@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/ad3817d4306e4faaba4d574e353431dc/artifacts
+end_time: 1740318270005
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: ad3817d4306e4faaba4d574e353431dc
+run_name: gaudy-lamb-219
+run_uuid: ad3817d4306e4faaba4d574e353431dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318266300
+status: 3
+tags: []
+user_id: HP

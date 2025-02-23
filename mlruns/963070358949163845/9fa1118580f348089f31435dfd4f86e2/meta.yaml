@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/9fa1118580f348089f31435dfd4f86e2/artifacts
+end_time: 1740315705066
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 9fa1118580f348089f31435dfd4f86e2
+run_name: amazing-loon-832
+run_uuid: 9fa1118580f348089f31435dfd4f86e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315702105
+status: 3
+tags: []
+user_id: HP

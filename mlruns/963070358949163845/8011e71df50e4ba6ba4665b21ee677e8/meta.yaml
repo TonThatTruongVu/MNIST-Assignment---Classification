@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/8011e71df50e4ba6ba4665b21ee677e8/artifacts
+end_time: 1740318276389
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 8011e71df50e4ba6ba4665b21ee677e8
+run_name: overjoyed-goose-121
+run_uuid: 8011e71df50e4ba6ba4665b21ee677e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318273153
+status: 3
+tags: []
+user_id: HP

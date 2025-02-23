@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/3370c7bb984e4b08a972259cea113500/artifacts
+end_time: 1740315091135
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 3370c7bb984e4b08a972259cea113500
+run_name: amusing-stag-272
+run_uuid: 3370c7bb984e4b08a972259cea113500
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315087741
+status: 3
+tags: []
+user_id: HP

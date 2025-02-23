@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/bdf60c6dc746428283a076a1d78caf39/artifacts
+end_time: 1740316660830
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: bdf60c6dc746428283a076a1d78caf39
+run_name: bouncy-kit-441
+run_uuid: bdf60c6dc746428283a076a1d78caf39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316657267
+status: 3
+tags: []
+user_id: HP

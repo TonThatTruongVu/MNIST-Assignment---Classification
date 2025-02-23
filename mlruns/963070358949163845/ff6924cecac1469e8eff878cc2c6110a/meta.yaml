@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/ff6924cecac1469e8eff878cc2c6110a/artifacts
+end_time: 1740317475305
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: ff6924cecac1469e8eff878cc2c6110a
+run_name: puzzled-goose-796
+run_uuid: ff6924cecac1469e8eff878cc2c6110a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317471620
+status: 3
+tags: []
+user_id: HP

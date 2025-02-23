@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/cda3c3c4ad73447ebd02b41c21b6bb4f/artifacts
+end_time: 1740318127025
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: cda3c3c4ad73447ebd02b41c21b6bb4f
+run_name: worried-zebra-839
+run_uuid: cda3c3c4ad73447ebd02b41c21b6bb4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740318124063
+status: 3
+tags: []
+user_id: HP

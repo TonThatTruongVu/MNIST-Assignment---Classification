@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/4c0ced65a5744bfdb04a1e42e64ca88e/artifacts
+end_time: 1740317497699
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 4c0ced65a5744bfdb04a1e42e64ca88e
+run_name: lyrical-swan-362
+run_uuid: 4c0ced65a5744bfdb04a1e42e64ca88e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317494485
+status: 3
+tags: []
+user_id: HP

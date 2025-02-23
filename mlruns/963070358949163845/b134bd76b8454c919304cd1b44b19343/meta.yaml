@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/b134bd76b8454c919304cd1b44b19343/artifacts
+end_time: 1740315650432
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: b134bd76b8454c919304cd1b44b19343
+run_name: nebulous-seal-419
+run_uuid: b134bd76b8454c919304cd1b44b19343
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740315647526
+status: 3
+tags: []
+user_id: HP

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/934f84778331483f8532b9be8fdf0ee2/artifacts
+end_time: 1740316387268
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 934f84778331483f8532b9be8fdf0ee2
+run_name: dapper-ox-778
+run_uuid: 934f84778331483f8532b9be8fdf0ee2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316383868
+status: 3
+tags: []
+user_id: HP

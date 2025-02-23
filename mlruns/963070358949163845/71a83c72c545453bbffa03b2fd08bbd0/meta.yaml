@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/71a83c72c545453bbffa03b2fd08bbd0/artifacts
+end_time: 1740314927327
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 71a83c72c545453bbffa03b2fd08bbd0
+run_name: youthful-elk-432
+run_uuid: 71a83c72c545453bbffa03b2fd08bbd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314923764
+status: 3
+tags: []
+user_id: HP

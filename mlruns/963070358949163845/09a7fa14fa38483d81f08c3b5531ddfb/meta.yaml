@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/09a7fa14fa38483d81f08c3b5531ddfb/artifacts
+end_time: 1740314854401
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 09a7fa14fa38483d81f08c3b5531ddfb
+run_name: sincere-moose-838
+run_uuid: 09a7fa14fa38483d81f08c3b5531ddfb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314851415
+status: 3
+tags: []
+user_id: HP

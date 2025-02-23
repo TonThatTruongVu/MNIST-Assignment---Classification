@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/6d08b316245a494db4962e7cfc39fc2e/artifacts
+end_time: 1740314735091
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 6d08b316245a494db4962e7cfc39fc2e
+run_name: vaunted-tern-413
+run_uuid: 6d08b316245a494db4962e7cfc39fc2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740314731318
+status: 3
+tags: []
+user_id: HP

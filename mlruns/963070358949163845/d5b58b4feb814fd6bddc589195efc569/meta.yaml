@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/d5b58b4feb814fd6bddc589195efc569/artifacts
+end_time: 1740316031049
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: d5b58b4feb814fd6bddc589195efc569
+run_name: stylish-mare-715
+run_uuid: d5b58b4feb814fd6bddc589195efc569
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740316027603
+status: 3
+tags: []
+user_id: HP

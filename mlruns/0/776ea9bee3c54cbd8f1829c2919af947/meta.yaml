@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/HocMay_Python/Assignment/mlruns/0/776ea9bee3c54cbd8f1829c2919af947/artifacts
+end_time: 1740283416112
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 776ea9bee3c54cbd8f1829c2919af947
+run_name: SVM
+run_uuid: 776ea9bee3c54cbd8f1829c2919af947
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740283377465
+status: 3
+tags: []
+user_id: HP

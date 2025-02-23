@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963070358949163845/17947c4e25a14ffe9b181601403336ec/artifacts
+end_time: 1740317488126
+entry_point_name: ''
+experiment_id: '963070358949163845'
+lifecycle_stage: active
+run_id: 17947c4e25a14ffe9b181601403336ec
+run_name: thundering-horse-404
+run_uuid: 17947c4e25a14ffe9b181601403336ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740317484772
+status: 3
+tags: []
+user_id: HP
