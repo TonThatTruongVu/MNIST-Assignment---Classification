@@ -11,8 +11,7 @@ from streamlit_drawable_canvas import st_canvas
 import requests
 import json
 
-MLFLOW_SERVER_URL = "http://192.168.1.150:5000"
-  # Địa chỉ IP của MLFlow server
+MLFLOW_SERVER_URL = "http://127.0.0.1:5000"  # Địa chỉ localhost của MLFlow server
 
 # Load mô hình đã huấn luyện
 DT_MODEL_PATH = "decision_tree_model.pkl"
@@ -43,11 +42,29 @@ def preprocess_image(img):
     gray = gray.reshape(1, -1)  # Chuyển thành vector 1x784
     return gray
 
+def send_request_with_retry(url, retries=3, timeout=30, method="get", data=None, files=None):
+    for _ in range(retries):
+        try:
+            if method == "get":
+                response = requests.get(url, timeout=timeout)
+            elif method == "post":
+                response = requests.post(url, json=data, timeout=timeout, files=files)
+            return response
+        except requests.exceptions.RequestException as e:
+            st.error(f"Không thể kết nối tới MLFlow server: {e}")
+            time.sleep(5)  # Thử lại sau 5 giây
+    return None  # Nếu không thể kết nối sau retries lần thử
+
 def log_run_to_mlflow(prediction, option, model_choice, img):
     # Kiểm tra experiment đã tồn tại chưa
     experiment_name = "handwritten_digit_recognition"
     experiment_check_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/search"
-    response = requests.get(experiment_check_url)
+    
+    # Gửi yêu cầu với retry
+    response = send_request_with_retry(experiment_check_url, method="get")
+    if not response:
+        return  # Dừng lại nếu không thể kết nối
+
     experiments = response.json()["experiments"]
     
     experiment_id = None
@@ -58,11 +75,17 @@ def log_run_to_mlflow(prediction, option, model_choice, img):
 
     if not experiment_id:
         # Tạo experiment nếu chưa có
-        response = requests.post(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/create", json={"name": experiment_name})
+        response = send_request_with_retry(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/create", 
+                                           data={"name": experiment_name}, method="post")
+        if not response:
+            return
         experiment_id = response.json()["experiment_id"]
 
     # Tạo run mới
-    response = requests.post(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/create", json={"experiment_id": experiment_id})
+    response = send_request_with_retry(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/create", 
+                                       data={"experiment_id": experiment_id}, method="post")
+    if not response:
+        return
     run_id = response.json()["run"]["info"]["run_id"]
 
     # Ghi log tham số và metric
@@ -72,14 +95,14 @@ def log_run_to_mlflow(prediction, option, model_choice, img):
         "key": "predicted_number",
         "value": prediction
     }
-    requests.post(log_metric_url, json=data)
+    send_request_with_retry(log_metric_url, data=data, method="post")
 
     log_param_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/log-params"
     params = {
         "input_method": option,
         "model_used": model_choice
     }
-    requests.post(log_param_url, json={"run_id": run_id, "params": params})
+    send_request_with_retry(log_param_url, data={"run_id": run_id, "params": params}, method="post")
 
     # Lưu mô hình vào tệp tạm thời và ghi mô hình
     model_filename = "digit_classification_model.pkl"
@@ -90,8 +113,7 @@ def log_run_to_mlflow(prediction, option, model_choice, img):
     log_model_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/log-artifact"
     with open(model_filename, "rb") as model_file:
         files = {'file': model_file}
-        response = requests.post(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/log-artifact", files=files, data={"run_id": run_id})
-        response.raise_for_status()
+        send_request_with_retry(log_model_url, files=files, data={"run_id": run_id}, method="post")
 
 # Xử lý đầu vào từ người dùng
 if option == "Vẽ số":
