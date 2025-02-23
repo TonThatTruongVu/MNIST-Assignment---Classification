@@ -13,7 +13,6 @@ import json
 
 MLFLOW_SERVER_URL = "http://127.0.0.1:5000"  # Đảm bảo đúng địa chỉ localhost
 
-
 # Load mô hình đã huấn luyện
 DT_MODEL_PATH = "decision_tree_model.pkl"
 SVM_MODEL_PATH = "svm_model.pkl"
@@ -56,36 +55,40 @@ def send_request_with_retry(url, retries=3, timeout=30, method="get", data=None,
             time.sleep(5)  # Thử lại sau 5 giây
     return None  # Nếu không thể kết nối sau retries lần thử
 
+def get_experiment_id(experiment_name):
+    # Gửi yêu cầu lấy danh sách các experiment
+    experiment_check_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/search?max_results=10"
+    response = send_request_with_retry(experiment_check_url, method="get")
+    
+    if not response:
+        st.error("Không thể kết nối tới MLFlow server khi kiểm tra experiment.")
+        return None
+
+    experiments = response.json().get("experiments", [])
+    for exp in experiments:
+        if exp["name"] == experiment_name:
+            return exp["experiment_id"]
+    return None
+
 def log_run_to_mlflow(prediction, option, model_choice, img):
     # Kiểm tra experiment đã tồn tại chưa
     experiment_name = "handwritten_digit_recognition"
-    experiment_check_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/search"
+    experiment_id = get_experiment_id(experiment_name)
     
-    # Gửi yêu cầu với retry
-    response = send_request_with_retry(experiment_check_url, method="get")
-    if not response:
-        return  # Dừng lại nếu không thể kết nối
-
-    experiments = response.json()["experiments"]
-    
-    experiment_id = None
-    for exp in experiments:
-        if exp["name"] == experiment_name:
-            experiment_id = exp["experiment_id"]
-            break
-
     if not experiment_id:
         # Tạo experiment nếu chưa có
-        response = send_request_with_retry(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/create", 
-                                           data={"name": experiment_name}, method="post")
+        create_experiment_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/create"
+        response = send_request_with_retry(create_experiment_url, method="post", data={"name": experiment_name})
         if not response:
+            st.error("Không thể tạo experiment mới.")
             return
         experiment_id = response.json()["experiment_id"]
-
+    
     # Tạo run mới
-    response = send_request_with_retry(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/create", 
-                                       data={"experiment_id": experiment_id}, method="post")
+    create_run_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/create"
+    response = send_request_with_retry(create_run_url, method="post", data={"experiment_id": experiment_id})
     if not response:
+        st.error("Không thể tạo run mới.")
         return
     run_id = response.json()["run"]["info"]["run_id"]
 
