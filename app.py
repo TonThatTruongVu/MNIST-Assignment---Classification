@@ -42,7 +42,7 @@ def preprocess_image(img):
     gray = gray.astype(np.uint8)  # Đảm bảo dữ liệu có dạng số nguyên 0-255
     gray = gray.reshape(1, -1)  # Chuyển thành vector 1x784
     return gray
-"""
+
 def send_request_with_retry(url, retries=3, timeout=30, method="get", data=None, files=None):
     for _ in range(retries):
         try:
@@ -119,7 +119,7 @@ def log_run_to_mlflow(prediction, option, model_choice, img):
     with open(model_filename, "rb") as model_file:
         files = {'file': model_file}
         send_request_with_retry(log_model_url, files=files, data={"run_id": run_id}, method="post")
-"""
+
 # Xử lý đầu vào từ người dùng
 if option == "Vẽ số":
     canvas_result = st_canvas(
