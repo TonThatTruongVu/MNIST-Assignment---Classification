@@ -43,10 +43,22 @@ def preprocess_image(img):
     return gray
 
 def log_run_to_mlflow(prediction, option, model_choice, img):
-    # Tạo experiment nếu chưa có
+    # Kiểm tra experiment đã tồn tại chưa
     experiment_name = "handwritten_digit_recognition"
-    response = requests.post(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/create", json={"name": experiment_name})
-    experiment_id = response.json()["experiment_id"]
+    experiment_check_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/search"
+    response = requests.get(experiment_check_url)
+    experiments = response.json()["experiments"]
+    
+    experiment_id = None
+    for exp in experiments:
+        if exp["name"] == experiment_name:
+            experiment_id = exp["experiment_id"]
+            break
+
+    if not experiment_id:
+        # Tạo experiment nếu chưa có
+        response = requests.post(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/experiments/create", json={"name": experiment_name})
+        experiment_id = response.json()["experiment_id"]
 
     # Tạo run mới
     response = requests.post(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/create", json={"experiment_id": experiment_id})
@@ -68,15 +80,17 @@ def log_run_to_mlflow(prediction, option, model_choice, img):
     }
     requests.post(log_param_url, json={"run_id": run_id, "params": params})
 
-    # Ghi mô hình
-    log_model_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/models/log-model"
-    model_data = {
-        "run_id": run_id,
-        "name": "digit_classification_model",
-        "artifact_path": "digit_classification_model",
-        "model": dt_model if model_choice == "Decision Tree" else svm_model
-    }
-    requests.post(log_model_url, json=model_data)
+    # Lưu mô hình vào tệp tạm thời và ghi mô hình
+    model_filename = "digit_classification_model.pkl"
+    model = dt_model if model_choice == "Decision Tree" else svm_model
+    joblib.dump(model, model_filename)
+
+    # Upload mô hình đã lưu
+    log_model_url = f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/log-artifact"
+    with open(model_filename, "rb") as model_file:
+        files = {'file': model_file}
+        response = requests.post(f"{MLFLOW_SERVER_URL}/api/2.0/mlflow/runs/log-artifact", files=files, data={"run_id": run_id})
+        response.raise_for_status()
 
 # Xử lý đầu vào từ người dùng
 if option == "Vẽ số":
